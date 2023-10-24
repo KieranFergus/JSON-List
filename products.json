@@ -2,6 +2,7 @@
     [
         {
             "name" : "glo beanie",
+            "description" : "Beanie with embroidered skull design",
             "size" : ["small", "large"],
             "price" : "30",
             "category" : ["headwear", "winter-hat", "urban"]
@@ -9,6 +10,7 @@
 
         {
             "name" : "snorlax earhat",
+            "description" : "Earhat with snorlax embroidery and chinstraps",
             "size" : ["small", "large"],
             "price" : "25",
             "category" : ["headwear", "winter-hat", "cartoon"]
@@ -16,6 +18,7 @@
 
         {
             "name" : "pikachu snapback",
+            "description" : "Yellow snapback with pikachu face",
             "size" : ["adjustable"],
             "price" : "30",
             "category" : ["headwear", "sporting-hat", "cartoon"]
@@ -23,6 +26,7 @@
 
         {
             "name" : "yankee flatbrim",
+            "description" : "New York Yankees baseball cap with flat brim, no snap-back",
             "size" : ["small", "large"],
             "price" : "50",
             "category" : ["headwear", "sporting-hat", "baseball"]
@@ -30,6 +34,7 @@
 
         {
             "name" : "bass pro shop trucker",
+            "description" : "Bass Pro Shop Trucker with mesh back adjustable snap-back",
             "size" : ["small", "large"],
             "price" : "20",
             "category" : ["headwear", "sporting-hat", "fishing"]
@@ -37,6 +42,7 @@
 
         {
             "name" : "tye-dye headscarf",
+            "description" : "Satin tye-dye headscarf/durag with no tassles",
             "size" : ["20x20", "32x32"],
             "price" : "15",
             "category" : ["headwear", "headwrap", "protective"]
@@ -44,13 +50,15 @@
 
         {
             "name" : "paisley bandana",
+            "description" : "Silk tye-dye headscarf/durag with flower print",
             "size" : ["20x20", "32x32"],
             "price" : "15",
             "category" : ["headwear", "headwrap", "protective"]
         },
 
         {
-            "name" : "victorian top hat",
+            "name" : "victorian-era top hat",
+            "description" : "Black 19th century walking topper",
             "size" : ["5.5", "6"],
             "price" : "40",
             "category" : ["headwear", "formal", "historical"]
@@ -58,6 +66,7 @@
 
         {
             "name" : "tommy shelby hat",
+            "description" : "Early 20th century bakerboy cap",
             "size" : ["child", "adult"],
             "price" : "20",
             "category" : ["headwear", "formal", "historical"]
@@ -65,6 +74,7 @@
 
         {
             "name" : "priest hat",
+            "description" : "Dramatic white/purple headwear with cross",
             "size" : ["short", "tall"],
             "price" : "50",
             "category" : ["headwear", "religious", "ornamental"]
@@ -72,6 +82,7 @@
 
         {
             "name" : "cloth turban",
+            "description" : "Cloth turban with tassles and black/white design",
             "size" : ["20x20", "32x32"],
             "price" : "20",
             "category" : ["headwear", "headwrap", "protective"]
@@ -79,6 +90,7 @@
 
         {
             "name" : "satin wavecap",
+            "description" : "Protective, elastic-lined, breathable cap",
             "size" : ["child", "adult"],
             "price" : "10",
             "category" : ["headwear", "headwrap", "protective"]
