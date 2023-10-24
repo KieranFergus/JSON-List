@@ -65,7 +65,7 @@
 
         {
             "name" : "priest hat",
-            "size" : "tall",
+            "size" : ["short", "tall"]
             "price" : "50",
             "category" : ["headwear", "religious", "ornamental"]
         },
