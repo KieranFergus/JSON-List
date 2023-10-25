@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JSON list 2</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <script language="javascript">
+            $.get("https://kieranfergus.github.io/JSON-List/products.json",
+                
+                function (data){
+                    console.log(data);
+                    const hatList = document.createElement('ul');
+                    for(let i=0; i<data.length; i++) 
+                    {
+                        const hatItem = document.createElement('tr');
+                        const hatSubItem = document.createElement('td');
+                        $(hatItem).html('hat: ');
+                        $(hatSubItem).html(data[i].name);
+                        hatItem.appendChild(hatSubItem);
+                        hatList.appendChild(hatItem);
+                        
+                        const descCont = document.createElement('tr');
+                        const desc = document.createElement('td');
+                        $(descCont).html('description: ' + '&nbsp;');
+                        $(desc).html(data[i].description);
+                        descCont.appendChild(desc);
+                        hatList.appendChild(descCont);
+                    
+                        
+                        const sizeList = document.createElement('tr');
+                        $(sizeList).html('size: ')
+                        for(var key in data[i].size) 
+                        {
+                            const sizeItem = document.createElement('td');
+                            $(sizeItem).html(data[i].size[key]);
+                            sizeList.appendChild(sizeItem);
+                        }
+                        
+                        hatList.appendChild(sizeList);
+                        
+
+                        
+                        const priceItem = document.createElement('tr');
+                        const priceSubItem = document.createElement('td');
+                        $(priceItem).html('price: ');
+                        $(priceSubItem).html(data[i].price);
+                        priceItem.appendChild(priceSubItem);
+                        hatList.appendChild(priceItem);
+                        
+
+
+                        const catList = document.createElement('tr');
+                        $(catList).html('category: '+'&nbsp');
+                        for(var key in data[i].category) 
+                        {
+                            const catItem = document.createElement('td');
+                            $(catItem).html(data[i].category[key] + "&nbsp&nbsp");
+                            catList.appendChild(catItem);
+                        }
+                        hatList.appendChild(catList);
+                        hatList.appendChild(document.createElement('hr'));
+                    }
+                    document.body.appendChild(hatList);
+                })    
+        </script>   
+    </body>
+    
