@@ -3,96 +3,96 @@
         {
             "name" : "glo beanie",
             "description" : "Beanie with embroidered skull design",
-            "size" : ["small", "large"],
+            "size" : "large",
             "price" : "30",
-            "category" : ["headwear", "winter-hat", "urban"]
+            "category" : "winter-hat"
         },
 
         {
             "name" : "snorlax earhat",
             "description" : "Earhat with snorlax embroidery and chinstraps",
-            "size" : ["small", "large"],
+            "size" : "small", 
             "price" : "25",
-            "category" : ["headwear", "winter-hat", "cartoon"]
+            "category" : "winter-hat"
         },
 
         {
             "name" : "pikachu snapback",
             "description" : "Yellow snapback with pikachu face",
-            "size" : ["adjustable"],
+            "size" : "adjustable"
             "price" : "30",
-            "category" : ["headwear", "sporting-hat", "cartoon"]
+            "category" : "sporting-hat"
         },
 
         {
             "name" : "yankee flatbrim",
             "description" : "New York Yankees baseball cap with flat brim, no snap-back",
-            "size" : ["small", "large"],
+            "size" : "adjustable",
             "price" : "50",
-            "category" : ["headwear", "sporting-hat", "baseball"]
+            "category" : "sporting-hat"
         },
 
         {
             "name" : "bass pro shop trucker",
             "description" : "Bass Pro Shop Trucker with mesh back adjustable snap-back",
-            "size" : ["small", "large"],
+            "size" : adjustable,
             "price" : "20",
-            "category" : ["headwear", "sporting-hat", "fishing"]
+            "category" : "sporting-hat"
         },
 
         {
             "name" : "tye-dye headscarf",
             "description" : "Satin tye-dye headscarf/durag with no tassles",
-            "size" : ["20x20", "32x32"],
+            "size" : "20x20", 
             "price" : "15",
-            "category" : ["headwear", "headwrap", "protective"]
+            "category" : "protective"
         },
 
         {
             "name" : "paisley bandana",
             "description" : "Silk tye-dye headscarf/durag with flower print",
-            "size" : ["20x20", "32x32"],
+            "size" : "32x32",
             "price" : "15",
-            "category" : ["headwear", "headwrap", "protective"]
+            "category" : "protective"
         },
 
         {
             "name" : "victorian-era top hat",
             "description" : "Black 19th century walking topper",
-            "size" : ["5.5", "6"],
+            "size" : "large",
             "price" : "40",
-            "category" : ["headwear", "formal", "historical"]
+            "category" : "formal"
         },
 
         {
             "name" : "tommy shelby hat",
             "description" : "Early 20th century bakerboy cap",
-            "size" : ["child", "adult"],
+            "size" : "adult",
             "price" : "20",
-            "category" : ["headwear", "formal", "historical"]
+            "category" : "formal"
         },
 
         {
             "name" : "priest hat",
             "description" : "Dramatic white/purple headwear with cross",
-            "size" : ["short", "tall"],
+            "size" : "adult",
             "price" : "50",
-            "category" : ["headwear", "religious", "ornamental"]
+            "category" : "formal"
         },
 
         {
             "name" : "cloth turban",
             "description" : "Cloth turban with tassles and black/white design",
-            "size" : ["20x20", "32x32"],
+            "size" : "32x32",
             "price" : "20",
-            "category" : ["headwear", "headwrap", "protective"]
+            "category" : "protective"
         },
 
         {
             "name" : "satin wavecap",
             "description" : "Protective, elastic-lined, breathable cap",
-            "size" : ["child", "adult"],
+            "size" : "adjustable",
             "price" : "10",
-            "category" : ["headwear", "headwrap", "protective"]
+            "category" : "protective"
         }
     ]
