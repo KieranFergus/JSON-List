@@ -1,6 +1,7 @@
 
     [
         {
+            "id" : 1,
             "name" : "glo beanie",
             "description" : "Beanie with embroidered skull design",
             "size" : "large",
@@ -9,6 +10,7 @@
         },
 
         {
+            "id" : 2,
             "name" : "snorlax earhat",
             "description" : "Earhat with snorlax embroidery and chinstraps",
             "size" : "small", 
@@ -17,6 +19,7 @@
         },
 
         {
+            "id" : 3,
             "name" : "pikachu snapback",
             "description" : "Yellow snapback with pikachu face",
             "size" : "adjustable",
@@ -25,6 +28,7 @@
         },
 
         {
+            "id" : 4,
             "name" : "yankee flatbrim",
             "description" : "New York Yankees baseball cap with flat brim, no snap-back",
             "size" : "adjustable",
@@ -33,6 +37,7 @@
         },
 
         {
+            "id" : 5,
             "name" : "bass pro shop trucker",
             "description" : "Bass Pro Shop Trucker with mesh back adjustable snap-back",
             "size" : "adjustable",
@@ -41,6 +46,7 @@
         },
 
         {
+            "id" : 6,
             "name" : "tye-dye headscarf",
             "description" : "Satin tye-dye headscarf/durag with no tassles",
             "size" : "20x20", 
@@ -49,6 +55,7 @@
         },
 
         {
+            "id" : 7,
             "name" : "paisley bandana",
             "description" : "Silk tye-dye headscarf/durag with flower print",
             "size" : "32x32",
@@ -57,6 +64,7 @@
         },
 
         {
+            "id" : 8,
             "name" : "victorian-era top hat",
             "description" : "Black 19th century walking topper",
             "size" : "large",
@@ -65,6 +73,7 @@
         },
 
         {
+            "id" : 9,
             "name" : "tommy shelby hat",
             "description" : "Early 20th century bakerboy cap",
             "size" : "adult",
@@ -73,6 +82,7 @@
         },
 
         {
+            "id" : 10,
             "name" : "priest hat",
             "description" : "Dramatic white/purple headwear with cross",
             "size" : "adult",
@@ -81,6 +91,7 @@
         },
 
         {
+            "id" : 11,
             "name" : "cloth turban",
             "description" : "Cloth turban with tassles and black/white design",
             "size" : "32x32",
@@ -89,6 +100,7 @@
         },
 
         {
+            "id" : 12,
             "name" : "satin wavecap",
             "description" : "Protective, elastic-lined, breathable cap",
             "size" : "adjustable",
