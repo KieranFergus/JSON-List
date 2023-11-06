@@ -19,7 +19,7 @@
         {
             "name" : "pikachu snapback",
             "description" : "Yellow snapback with pikachu face",
-            "size" : "adjustable"
+            "size" : "adjustable",
             "price" : "30",
             "category" : ["sporting-hat", "cartoon"]
         },
