@@ -35,7 +35,7 @@
         {
             "name" : "bass pro shop trucker",
             "description" : "Bass Pro Shop Trucker with mesh back adjustable snap-back",
-            "size" : adjustable,
+            "size" : "adjustable",
             "price" : "20",
             "category" : ["sporting-hat", "brimmed"]
         },
