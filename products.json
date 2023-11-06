@@ -5,7 +5,7 @@
             "description" : "Beanie with embroidered skull design",
             "size" : "large",
             "price" : "30",
-            "category" : "winter-hat"
+            "category" : ["winter-hat", "protective"]
         },
 
         {
@@ -13,7 +13,7 @@
             "description" : "Earhat with snorlax embroidery and chinstraps",
             "size" : "small", 
             "price" : "25",
-            "category" : "winter-hat"
+            "category" : ["winter-hat", "cartoon"]
         },
 
         {
@@ -21,7 +21,7 @@
             "description" : "Yellow snapback with pikachu face",
             "size" : "adjustable"
             "price" : "30",
-            "category" : "sporting-hat"
+            "category" : ["sporting-hat", "cartoon"]
         },
 
         {
@@ -29,7 +29,7 @@
             "description" : "New York Yankees baseball cap with flat brim, no snap-back",
             "size" : "adjustable",
             "price" : "50",
-            "category" : "sporting-hat"
+            "category" : ["sporting-hat", "brimmed"]
         },
 
         {
@@ -37,7 +37,7 @@
             "description" : "Bass Pro Shop Trucker with mesh back adjustable snap-back",
             "size" : adjustable,
             "price" : "20",
-            "category" : "sporting-hat"
+            "category" : ["sporting-hat", "brimmed"]
         },
 
         {
@@ -45,7 +45,7 @@
             "description" : "Satin tye-dye headscarf/durag with no tassles",
             "size" : "20x20", 
             "price" : "15",
-            "category" : "protective"
+            "category" : ["protective", "headwrap"]
         },
 
         {
@@ -53,7 +53,7 @@
             "description" : "Silk tye-dye headscarf/durag with flower print",
             "size" : "32x32",
             "price" : "15",
-            "category" : "protective"
+            "category" : ["protective", "headwrap"]
         },
 
         {
@@ -61,7 +61,7 @@
             "description" : "Black 19th century walking topper",
             "size" : "large",
             "price" : "40",
-            "category" : "formal"
+            "category" : ["formal", "brimmed"]
         },
 
         {
@@ -69,7 +69,7 @@
             "description" : "Early 20th century bakerboy cap",
             "size" : "adult",
             "price" : "20",
-            "category" : "formal"
+            "category" : ["formal", "brimmed"]
         },
 
         {
@@ -77,7 +77,7 @@
             "description" : "Dramatic white/purple headwear with cross",
             "size" : "adult",
             "price" : "50",
-            "category" : "formal"
+            "category" : ["formal", "religious"]
         },
 
         {
@@ -85,7 +85,7 @@
             "description" : "Cloth turban with tassles and black/white design",
             "size" : "32x32",
             "price" : "20",
-            "category" : "protective"
+            "category" : ["protective", "headwrap"]
         },
 
         {
@@ -93,6 +93,6 @@
             "description" : "Protective, elastic-lined, breathable cap",
             "size" : "adjustable",
             "price" : "10",
-            "category" : "protective"
+            "category" : ["protective", "sporting"]
         }
     ]
